@@ -1,2 +1,1 @@
-# Email_analyzer
-genAI enabled email analysis
+# Document Generation
