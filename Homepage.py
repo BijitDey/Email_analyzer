@@ -47,20 +47,11 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Extract the text from uploaded pdf
 
 st.markdown("""
-## Welcome to our Document Generator Application!
+## Welcome to our E-mail Analyser Application!
 
 This application has several tabs, each with its own functionality:
 
-### Document Evolution
-This tab allows users to compare different versions of a document side by side. Users can select the versions from a dropdown menu, and the changes are highlighted for easy comparison.
-
-### Text Highlighter & PDF Exporter
-This tab enables users to highlight specific text in the original document. The highlighted document can then be exported as a new PDF, making it easy to focus on key information.
-
-### Updated Document Downloader
-This tab provides a simple way for users to download the most recent version of the document. It ensures users always have access to the latest information.
-
-### Document Version History
+### XYZ
 This tab maintains a record of all changes made to the document over time. It stores the history in a dataframe, allowing users to track the evolution of the document from version 1 to the current version.
 """)
 
