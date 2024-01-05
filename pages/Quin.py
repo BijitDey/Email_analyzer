@@ -215,15 +215,15 @@ with st.sidebar:
     # pick the chunking method for the old document(v1)
     selected_old_chunk_method=st.selectbox("Pick the chunk method ::",["NewLine Chunk","Recursive Chunk"],key="3")
     # select the instruction document with respect to the old document(v1)
-    instruct = st.selectbox('**Pick the Instruction document :**', sorted(instruct_doc_subdirs), key="2")
-    # pick the chunking method for the instruction document
-    selected_instruct_chunk_method=st.selectbox("Pick the chunk method ::",["NewLine Chunk","Recursive Chunk"],key="4")
-    ## Set the path of documents
-    old_file_1 = f"{old_doc_path}/{old_file}"
-    instruct_file_2 = f"{instruct_doc_path}/{instruct}"
-    ## Select the LLM model
-    list_methods = ['OpenAI'] #'Palm'
-    method_used = st.selectbox('**Pick the Model type to be used for Document generation :**', list_methods)
+    # instruct = st.selectbox('**Pick the Instruction document :**', sorted(instruct_doc_subdirs), key="2")
+    # # pick the chunking method for the instruction document
+    # selected_instruct_chunk_method=st.selectbox("Pick the chunk method ::",["NewLine Chunk","Recursive Chunk"],key="4")
+    # ## Set the path of documents
+    # old_file_1 = f"{old_doc_path}/{old_file}"
+    # instruct_file_2 = f"{instruct_doc_path}/{instruct}"
+    # ## Select the LLM model
+    # list_methods = ['OpenAI'] #'Palm'
+    # method_used = st.selectbox('**Pick the Model type to be used for Document generation :**', list_methods)
     st.write("**Click the below button if you want to generate a new version of the document:**")
     trigger_1 = st.button("Generate")
     st.write("\n")
