@@ -27,7 +27,7 @@ st.markdown("""
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
                             text-shadow: none;'>
-                    IntelDG
+                    E-mailyzer
     </span>
     <span style='font-size: 60%;'>
     <sup style='position: relative; top: 5px; color: #ed4965;'>by Affine</sup>
