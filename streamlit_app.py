@@ -6,9 +6,9 @@ import streamlit as st
 from Home import home
 from Upload_CSV import Upload
 from Upload_feedback import upload_feedback
-from Google_Cloud_Storage import google_cloud_storage
-from Azure_database import azure_database
-from Databricks_CSV import csv_databricks
+# from Google_Cloud_Storage import google_cloud_storage
+# from Azure_database import azure_database
+# from Databricks_CSV import csv_databricks
 
 
 # st.set_page_config(layout="wide")
@@ -34,7 +34,7 @@ from Databricks_CSV import csv_databricks
 #     </div>
 #     """, unsafe_allow_html=True)
 st.markdown("""
-    <div style='text-align: left; margin-top:-70px; margin-bottom: 5px;margin-left: -50px;'>
+    <div style='text-align: center; margin-top:-70px; margin-bottom: 5px;margin-left: -50px;'>
         <h2 style='font-size: 40px; font-family: Courier New, monospace;
                     letter-spacing: 2px; text-decoration: none;'>
             <img src="https://acis.affineanalytics.co.in/assets/images/logo_small.png" alt="logo" width="70" height="60">
